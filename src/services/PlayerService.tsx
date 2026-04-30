@@ -9,7 +9,7 @@ export const PlayerService = () => ({
         if(params.teamId){
             return(axios.get(BACKEND_URL + "/players/" + params.teamId))
         }else{
-            return(axios.get(BACKEND_URL + "/players/" + `?limit=${15}&offset=${115}`))
+            return(axios.get(BACKEND_URL + "/players/" + `?limit=${128}&offset=${0}`))
         }
         
     },

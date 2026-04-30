@@ -411,6 +411,8 @@ const AuctionCenter: React.FC = () => {
                     <span style={idText}>{currentBidPlayer.fullname.toUpperCase()} </span>
                   </div>
 
+                  
+
                  
 
 
